@@ -14,6 +14,13 @@
 		C088CA9E1BDEA6830022F0BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C088CA9C1BDEA6830022F0BF /* LaunchScreen.storyboard */; };
 		C088CAA91BDEA6830022F0BF /* ListrStage1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C088CAA81BDEA6830022F0BF /* ListrStage1Tests.swift */; };
 		C088CAB41BDEA6830022F0BF /* ListrStage1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C088CAB31BDEA6830022F0BF /* ListrStage1UITests.swift */; };
+		C088CAC81BDEA74C0022F0BF /* tshirt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C088CAC21BDEA74C0022F0BF /* tshirt.jpg */; };
+		C088CAC91BDEA74C0022F0BF /* tshirt.pxm in Resources */ = {isa = PBXBuildFile; fileRef = C088CAC31BDEA74C0022F0BF /* tshirt.pxm */; };
+		C088CACA1BDEA74C0022F0BF /* tshirt@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C088CAC41BDEA74C0022F0BF /* tshirt@2x.jpg */; };
+		C088CACB1BDEA74C0022F0BF /* tshirt@2x.pxm in Resources */ = {isa = PBXBuildFile; fileRef = C088CAC51BDEA74C0022F0BF /* tshirt@2x.pxm */; };
+		C088CACC1BDEA74C0022F0BF /* tshirt@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C088CAC61BDEA74C0022F0BF /* tshirt@3x.jpg */; };
+		C088CACD1BDEA74C0022F0BF /* tshirt@3x.pxm in Resources */ = {isa = PBXBuildFile; fileRef = C088CAC71BDEA74C0022F0BF /* tshirt@3x.pxm */; };
+		C088CB0B1BDFFDF20022F0BF /* ListrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C088CB0A1BDFFDF20022F0BF /* ListrViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		C088CAAF1BDEA6830022F0BF /* ListrStage1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListrStage1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C088CAB31BDEA6830022F0BF /* ListrStage1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListrStage1UITests.swift; sourceTree = "<group>"; };
 		C088CAB51BDEA6830022F0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C088CAC21BDEA74C0022F0BF /* tshirt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tshirt.jpg; sourceTree = "<group>"; };
+		C088CAC31BDEA74C0022F0BF /* tshirt.pxm */ = {isa = PBXFileReference; lastKnownFileType = file; path = tshirt.pxm; sourceTree = "<group>"; };
+		C088CAC41BDEA74C0022F0BF /* tshirt@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tshirt@2x.jpg"; sourceTree = "<group>"; };
+		C088CAC51BDEA74C0022F0BF /* tshirt@2x.pxm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tshirt@2x.pxm"; sourceTree = "<group>"; };
+		C088CAC61BDEA74C0022F0BF /* tshirt@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tshirt@3x.jpg"; sourceTree = "<group>"; };
+		C088CAC71BDEA74C0022F0BF /* tshirt@3x.pxm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tshirt@3x.pxm"; sourceTree = "<group>"; };
+		C088CB0A1BDFFDF20022F0BF /* ListrViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListrViewController.swift; path = ../ListrViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +91,7 @@
 		C088CA871BDEA6830022F0BF = {
 			isa = PBXGroup;
 			children = (
+				C088CAC11BDEA74C0022F0BF /* adaptiveui-images */,
 				C088CA921BDEA6830022F0BF /* ListrStage1 */,
 				C088CAA71BDEA6830022F0BF /* ListrStage1Tests */,
 				C088CAB21BDEA6830022F0BF /* ListrStage1UITests */,
@@ -98,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				C088CA931BDEA6830022F0BF /* AppDelegate.swift */,
+				C088CB0A1BDFFDF20022F0BF /* ListrViewController.swift */,
 				C088CA951BDEA6830022F0BF /* ViewController.swift */,
 				C088CA971BDEA6830022F0BF /* Main.storyboard */,
 				C088CA9A1BDEA6830022F0BF /* Assets.xcassets */,
@@ -123,6 +139,19 @@
 				C088CAB51BDEA6830022F0BF /* Info.plist */,
 			);
 			path = ListrStage1UITests;
+			sourceTree = "<group>";
+		};
+		C088CAC11BDEA74C0022F0BF /* adaptiveui-images */ = {
+			isa = PBXGroup;
+			children = (
+				C088CAC21BDEA74C0022F0BF /* tshirt.jpg */,
+				C088CAC31BDEA74C0022F0BF /* tshirt.pxm */,
+				C088CAC41BDEA74C0022F0BF /* tshirt@2x.jpg */,
+				C088CAC51BDEA74C0022F0BF /* tshirt@2x.pxm */,
+				C088CAC61BDEA74C0022F0BF /* tshirt@3x.jpg */,
+				C088CAC71BDEA74C0022F0BF /* tshirt@3x.pxm */,
+			);
+			path = "adaptiveui-images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +258,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C088CAC91BDEA74C0022F0BF /* tshirt.pxm in Resources */,
+				C088CACB1BDEA74C0022F0BF /* tshirt@2x.pxm in Resources */,
+				C088CACD1BDEA74C0022F0BF /* tshirt@3x.pxm in Resources */,
 				C088CA9E1BDEA6830022F0BF /* LaunchScreen.storyboard in Resources */,
+				C088CACA1BDEA74C0022F0BF /* tshirt@2x.jpg in Resources */,
 				C088CA9B1BDEA6830022F0BF /* Assets.xcassets in Resources */,
+				C088CACC1BDEA74C0022F0BF /* tshirt@3x.jpg in Resources */,
 				C088CA991BDEA6830022F0BF /* Main.storyboard in Resources */,
+				C088CAC81BDEA74C0022F0BF /* tshirt.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +293,7 @@
 			files = (
 				C088CA961BDEA6830022F0BF /* ViewController.swift in Sources */,
 				C088CA941BDEA6830022F0BF /* AppDelegate.swift in Sources */,
+				C088CB0B1BDFFDF20022F0BF /* ListrViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +520,7 @@
 				C088CABA1BDEA6830022F0BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C088CABB1BDEA6830022F0BF /* Build configuration list for PBXNativeTarget "ListrStage1Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +529,7 @@
 				C088CABD1BDEA6830022F0BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C088CABE1BDEA6830022F0BF /* Build configuration list for PBXNativeTarget "ListrStage1UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +538,7 @@
 				C088CAC01BDEA6830022F0BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
